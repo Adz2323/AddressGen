@@ -16,3 +16,6 @@ apt-get install libgmp-dev
 g++ -std=c++11 -o keygen keygen.cpp -I/root/include -L/root/lib -lbitcoin-system -lboost_system -lboost_filesystem -lboost_thread -lboost_program_options -lboost_regex -lboost_log -lsecp256k1 -lgmp -lpthread
 
 Change Libbitcoin libary folder as needed
+
+Run using
+./keygen -n 1000
