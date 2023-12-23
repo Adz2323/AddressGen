@@ -33,6 +33,8 @@ int main(int argc, char* argv[]) {
         std::cout << "Usage: ./gen -n <number_of_keys>\n";
         return 1;
     }
+
+    int num_keys = std::stoi(argv[2]); 
     
     std::ofstream txtFile("keys.txt");
     std::ofstream pubkeyFile("publickeys.txt");
